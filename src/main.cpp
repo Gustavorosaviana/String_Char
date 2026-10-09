@@ -72,7 +72,7 @@ void textoChar(){
   strcpy(nomeAluno, "Felipe");
   Serial.println(nomeAluno);
 
-  //* Concatetanação de texto ao final
+  //* Concatenação de texto ao final
   char frase[40] = "Ola ";
   strcat(frase, "Mundo!");
   Serial.println(frase);
